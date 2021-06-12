@@ -5,10 +5,15 @@ A web browser game. You have to control the running fox. Try to avoid the obstac
 This project uses js modules. To be able to open it you have to run it on a web server (e.g Apache, Xampp etc.)
 
 # How to play
+
 `Space` := Jump
+
 `<` := go to left
+
 `>` := go to right
+
 `p` := pause
+
 `Enter` := Start/Reset game
 
 #Me & Project
