@@ -16,5 +16,5 @@ This project uses js modules. To be able to open it you have to run it on a web 
 
 `Enter` := Start/Reset game
 
-#Me & Project
+# Me & Project
 This is my first web browser game using threejs library.
