@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fox Runner</title>
+    <script type="text/javascript" src="./libs/three.js"></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+</head>
+
+<body>
+    <script src="./main.js" type="module">
+    </script>
+    <div id="webgl"></div>
+    <div class="loader-container" id="loader">
+        <h1>Fox Runner</h1>
+        <h2>Loading..</h2>
+        <div class="loader">
+            <div class="loader-status" id="loader-status"></div>
+        </div>
+    </div>
+    <div class="score-layout hide" id="score-box">
+        <div class="score-label">
+            Score:
+        </div>
+        <div class="score" id="score">
+            0
+        </div>
+    </div>
+
+    <div class="welcome hide" id="welcome">
+        <div class="label">
+            <h1>Welcome to endless runner!</h1>
+            <h2>Instructions:</h2>
+            <ul>
+                <li>`Enter` := Start</li>
+                <li>`p` := Pause</li>
+                <li>`Space` := Jump</li>
+                <li>`<` :=Left</li>
+                <li>`> := Right</li>
+            </ul>
+            <h2>Press `Enter` to start</h2>
+        </div>
+    </div>
+
+    <div class="gameover" id="gameover">
+        <h1>Game Over</h1>
+        <span class="gameover-score" id="gameover-score"></span>
+        <h2>Refresh the page for a new Game</h2>
+    </div>
+
+    <div class="pause-label hide" id="pause-label">
+        <h2>Pause</h2>
+        <h3>Press `P` to continue</h3>
+    </div>
+    <!-- <script type="module" src="./main.js"></script> -->
+    <!-- <script type="text/javascript" src="dat.gui.js"></script> -->
+</body>
+
+</html>

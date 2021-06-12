@@ -1,0 +1,10 @@
+export { LaneComponent } from '../Components/LaneComponent';
+export { CoinComponent } from '../Components/CoinComponent';
+export { ObstacleComponent } from '../Components/ObstacleComponent';
+export { ParticleComponent } from '../Components/ParticleComponent';
+export { CloudComponent } from '../Components/CloudComponent';
+export { BushComponent } from "../Components/BushComponent";
+export { RockComponent } from "../Components/RockComponent";
+export { TreeComponent } from "../Components/TreeComponent";
+export { PlayerComponent } from '../Components/PlayerComponent';
+export { GroundComponent } from '../Components/GroundComponent';

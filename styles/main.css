@@ -1,0 +1,156 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.score-layout {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 200px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.gameover {
+  display: none;
+}
+
+.gameover.active {
+  display: block !important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.gameover-score {
+  font-size: 40px;
+}
+
+.welcome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 1); */
+  background-image: url('../imgs/Fox.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.welcome h1,
+.welcome h2,
+.welcome ul li {
+  color: #f3f3f3;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.loader-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.loader-container h1,
+.loader-container h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.loader-container h1 {
+  font-size: 50px;
+}
+
+.loader-container h2 {
+  font-size: 30px;
+}
+
+.loader {
+  width: 60%;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.loader-status {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+  border-radius: 4px;
+  transition: width 1s;
+}
+
+.pause-label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pause-label h2 {
+  font-size: 50px;
+}
+
+.pause-label h3 {
+  font-size: 35px;
+}
+
+.label {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 80%;
+  min-width: 600px;
+}
